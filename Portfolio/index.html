@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X_UA_Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ff99c594bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="hero"> 
+        <nav>
+            <img src="Logo.png" class="Logo">
+            <ul>
+                <li><a href="#header">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#services">SERVICES</a></li>
+                <li><a href="#portfolio">PORTFOLIO</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+      
+            </ul>
+            
+        </nav>
+        <div class="detail">
+            <h1> Hello! I am Anguri <span>Pandey</span></h1>
+            <p>Passionate Computing student aspiring
+             to excel in <br>the world of data analysis.
+            </p>
+        <a href="Anguri Pandey (4).pdf" download>Open CV</a>
+        </div>
+        <div class="images">
+           
+            <img src="me.png" class="me">
+        </div>
+    </div>
+<!--------------About------------------>
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col1">
+                <img src="girl.png" class="girls" alt="Profile Image">
+            </div>
+            <div class="col2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Currently, I am pursuing Bsc.(Hons) Computing at Islington College
+                    proficient in programming languages like Python and Java,
+                    I am enthusiastic about technology and its transformative potential.
+                    Aiming to increase my expertise, launch my career and build a valuable
+                    skill set in the IT field as a Data Analyst.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/ App Interfaces</li>
+                        <li><span>Web Development</span><br>Web Development</li>
+                        <li><span>Programming Languages</span><br>Python/ Java/ C++</li>
+                        <li><span>Python-Libraries</span><br>NumPy/ Matplotlib/ Pandas/ Scikit-learn</li>
+                        <li><span>Microsoft Tools</span><br>Ms Word/ Ms Excel/ Ms Office</li>
+                        <li><span>Front-End Technology</span><br>HTML/ CSS/ JavaScript</li>
+                        <li><span>Framework</span><br>Django/ .Net/ React</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Bsc.(Hons) Computing, Bacheor in Information Technology</span><br>Islington College, London Metropolitan University<br>September 2021 - Present</li>
+                        <li><span>SLC- Science Stream</span><br>Tilottama Campus, Butwal<br>July 2018- October 2020</li>
+                        <li><span>Secondary Education Examination</span><br>Universal Public High School<br>April 2017</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----Services----------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <!-- Wrap your service items in a container div -->
+            <div class="service-item">
+                <i class="fas fa-code"></i>
+                <h2>Web Design</h2>
+                <p>I work closely with you to understand your vision and translate it into a unique and tailored web design that aligns with your values and objectives.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div class="service-item">
+                <i class="fas fa-crop-alt"></i>
+                <h2>UI/UX Design</h2>
+                <p>I design responsive websites that adapt beautifully to various screen sizes, ensuring your content looks great everywhere.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div class="service-item">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+                <h2>Data Analysis</h2>
+                <p>I specialize in transforming raw information into meaningful narratives that drive informed decisions and reveal hidden opportunities.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!---------------------------Portfolio------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Works</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="work1.jpg">
+                <div class="layer">
+                    <h3>UI/UX Design</h3>
+                    <p>Created UI/UX designs was used to build the website using Figma.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="work2.jpg">
+                <div class="layer">
+                    <h3>Automatic Car Wiper</h3>
+                    <p>Rain Sensing Automatic Car Wiper can wipe the windshield automatically after detecting the raindrops.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+
+            </div>
+            <div class="work">
+                <img src="work3.jpg">
+                <div class="layer">
+                    <h3>Empyrean Store</h3>
+                    <p>Developed an dynamic E-commerece Clothing Store website.</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <a href="http://localhost:8888/notebooks/Downloads/pythonnnn%20coursework.ipynb" class="btn">See More</a>
+    </div>
+</div>
+<!------------------Contact------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>anguripandey6@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9866657531</p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/anguri-pandey-9554a0241/"> <i class="fa-brands fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/bhanuumatiii/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://github.com/Angurii"><i class="fa-brands fa-github"></i></a>
+                </div>
+            </div>
+            <div class="contact-right"></div>
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message" ></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+        </div>
+    </div>
+</div>
+<div class="copyright"></div>
+    <p>Copyright © Anguri</p>
+<script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxsNNWfVVOIoJe_aQ1Jq3y_3xy0SWuzA7C-FbScJgbhgwDUSeSzROkaxj9ml3ozV994fA/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+    e.preventDefault();
+    fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+        .then(response => {
+           msg.innerHTML = "Message sent successfully!"
+           setTimeout(function(){
+                msg.innerHTML =""
+           },5000)
+           form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+})
+</script>
+
+</body>
+</html>
